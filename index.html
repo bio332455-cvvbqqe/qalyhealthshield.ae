@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Qaly Health Shield | Coming soon</title>
+  <meta name="description" content="Qaly Health Shield. Our new website is coming soon.">
+  <meta name="theme-color" content="#FFFFFF">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Qaly Health Shield">
+  <meta property="og:description" content="Our new website is coming soon.">
+  <meta property="og:url" content="https://www.qalyhealthshield.ae/">
+  <meta property="og:image" content="https://www.qalyhealthshield.ae/qaly-health-shield.png">
+  <style>
+    /* Brand: Qaly Health Shield / Bioscript Center guidelines.
+       Dubai font only. Dark blue #021A91 for text. Mars orange #F26B1D for the full stop only. */
+    @font-face {
+      font-family: "Qaly Dubai";
+      font-weight: 700;
+      font-display: swap;
+      src: local("Dubai Bold"), local("Dubai-Bold"), url("/dubai-bold.woff") format("woff");
+    }
+
+    :root {
+      --white: #FFFFFF;
+      --ice: #E8F4FC;
+      --ink: #021A91;
+      --orange: #F26B1D;
+      color-scheme: light;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { height: 100%; margin: 0; }
+
+    body {
+      background-color: var(--white);
+      background-image: radial-gradient(ellipse 120% 90% at 50% 30%, var(--white) 55%, var(--ice) 130%);
+      color: var(--ink);
+      font-family: "Qaly Dubai", "Dubai", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 16px;
+      text-align: center;
+    }
+
+    .logo {
+      display: block;
+      width: min(440px, 100%);
+      height: auto;
+    }
+
+    h1 {
+      margin: 48px 0 0;
+      font-weight: 700;
+      font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .dot { color: var(--orange); }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="/qaly-health-shield.png" width="1400" height="499" alt="Qaly Health Shield">
+    <h1>Coming soon<span class="dot" aria-hidden="true">.</span></h1>
+  </main>
+</body>
+</html>
